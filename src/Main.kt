@@ -1,15 +1,11 @@
 
+import domain.User
+
 fun main(args : Array<String>) {
 
-    var nimi = "Liina"
-    println("Hello $nimi")
+    var user = User(1, "Liina", 35)
 
-    var i = 23
-    var j = 36
+    println(user.name)
 
-
-
-    fun liida(i: Int, j: Int): Int = i+j
-
-    print("$i + $j ${ liida(i,j) }")
+    println("mina siin ")
 }
